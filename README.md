@@ -41,6 +41,11 @@ fullstack-proj/
 │   └── ...
 └── README.md
 
+## Screenshots
+
+### Dashboard
+![Hospital Dashboard](hospital-frontend-code/dashboard.png)
+
 Run Locally
 
 1. Clone the repository
