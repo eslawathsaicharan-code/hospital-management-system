@@ -1,0 +1,27 @@
+:root {
+  --bg: #f4f7f8;
+  --surface: #ffffff;
+  --ink: #10242b;
+  --muted: #5b6f77;
+  --line: #dde5e8;
+
+  --brand: #0f766e;
+  --brand-strong: #0b5c56;
+  --brand-soft: #e1f3f0;
+
+  --danger: #b91c1c;
+  --danger-soft: #fdecec;
+  --success: #15803d;
+  --success-soft: #e6f6ec;
+
+  /* ESI triage scale: 1 = most urgent */
+  --esi-1: #b91c1c;
+  --esi-2: #ea580c;
+  --esi-3: #ca8a04;
+  --esi-4: #15803d;
+  --esi-5: #1d4ed8;
+
+  --radius: 12px;
+  --shadow: 0 1px 2px rgba(16, 36, 43, 0.06), 0 4px 16px rgba(16, 36, 43, 0.05);
+  --font: "Plus Jakarta Sans", system-ui, sans-serif;
+}

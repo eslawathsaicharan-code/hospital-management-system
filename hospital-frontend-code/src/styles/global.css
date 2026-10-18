@@ -1,0 +1,29 @@
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--font);
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+button, input, select { font: inherit; }
+
+::selection { background: var(--brand-soft); }
+
+/* Visible keyboard focus on everything clickable */
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+
+/* Gentle entrance when a page opens */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+main > * { animation: rise 0.3s ease-out; }
+
+/* Respect users who turn animations off in their OS */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+}

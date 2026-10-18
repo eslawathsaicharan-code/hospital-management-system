@@ -1,0 +1,7 @@
+.shell { display: flex; min-height: 100vh; }
+.main { flex: 1; min-width: 0; }
+
+/* On phones, stack the menu above the page instead of beside it */
+@media (max-width: 720px) {
+  .shell { flex-direction: column; }
+}

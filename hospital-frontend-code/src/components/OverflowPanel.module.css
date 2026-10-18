@@ -1,0 +1,35 @@
+.panel {
+  background: color-mix(in srgb, var(--esi-3) 9%, white);
+  border: 1px solid color-mix(in srgb, var(--esi-3) 45%, white);
+  border-radius: 10px;
+  padding: 1rem 1.25rem;
+  margin-bottom: 1rem;
+}
+.head { display: flex; justify-content: space-between; gap: 1rem; }
+.head p { color: var(--muted); font-size: 0.9rem; }
+.close { border: 0; background: none; font-size: 1.4rem; line-height: 1; color: var(--muted); cursor: pointer; }
+
+.list { list-style: none; margin-top: 0.75rem; display: flex; flex-direction: column; gap: 0.5rem; }
+.item {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 0.6rem 0.9rem;
+}
+.rank {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--brand);
+  color: #fff;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+.name { flex: 1; font-weight: 600; }
+.stat { color: var(--muted); font-size: 0.85rem; white-space: nowrap; }

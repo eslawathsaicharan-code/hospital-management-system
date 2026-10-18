@@ -1,0 +1,17 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Frontend
+node_modules/
+dist/
+
+# Local development
+.pytest_cache/
