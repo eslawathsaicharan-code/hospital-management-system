@@ -1,5 +1,5 @@
-from backend.database import SessionLocal
-import backend.models as models
+from database import SessionLocal
+import models as models
 
 db = SessionLocal()
 
